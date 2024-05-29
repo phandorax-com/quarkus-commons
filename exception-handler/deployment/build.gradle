@@ -1,0 +1,7 @@
+dependencies {
+    implementation project(':runtime')
+    implementation platform("io.quarkus:quarkus-bom:${quarkusPluginVersion}")
+    testImplementation 'io.quarkus:quarkus-junit5-internal'
+
+    implementation "io.quarkus:quarkus-arc-deployment:${quarkusPluginVersion}"
+}

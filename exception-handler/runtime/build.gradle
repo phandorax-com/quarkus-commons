@@ -1,0 +1,8 @@
+plugins {
+    id 'io.quarkus.extension'
+}
+
+dependencies {
+    implementation platform("io.quarkus:quarkus-bom:${quarkusPluginVersion}")
+    implementation 'jakarta.enterprise:jakarta.enterprise.cdi-api'
+}

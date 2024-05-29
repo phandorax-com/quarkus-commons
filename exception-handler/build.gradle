@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+subprojects {
+    apply plugin: 'java-library'
+    apply plugin: 'maven-publish'
+
+    repositories {
+        mavenCentral()
+    }
+
+    group 'com.github.rhino'
+    version '1.0.0-SNAPSHOT'
+
+    compileJava {
+        options.encoding = 'UTF-8'
+        options.compilerArgs << '-parameters'
+    }
+
+    compileTestJava {
+        options.encoding = 'UTF-8'
+    }
+}

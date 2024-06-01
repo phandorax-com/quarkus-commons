@@ -1,8 +1,8 @@
 package com.github.rhino.quarkus.commons.extension.handler.runtime;
 
-import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.ws.rs.ext.Provider;
 
-@ApplicationScoped
+@Provider
 public class Blink {
 
     public void blinkTest(){

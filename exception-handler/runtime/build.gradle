@@ -5,6 +5,5 @@ plugins {
 
 dependencies {
     implementation platform("io.quarkus:quarkus-bom:${quarkusPluginVersion}")
-    implementation 'jakarta.enterprise:jakarta.enterprise.cdi-api'
     implementation 'jakarta.ws.rs:jakarta.ws.rs-api'
 }

@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'io.quarkus.extension'
+   // id 'io.quarkus.extension'
 }
 
 allprojects {

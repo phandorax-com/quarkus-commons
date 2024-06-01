@@ -1,5 +1,11 @@
 plugins {
     id 'java'
+    id 'io.quarkus.extension'
+}
+
+allprojects {
+    group 'com.github.rhino.quarkus'
+    version '1.0.0-SNAPSHOT'
 }
 
 subprojects {
@@ -9,9 +15,6 @@ subprojects {
     repositories {
         mavenCentral()
     }
-
-    group 'com.github.rhino'
-    version '1.0.0-SNAPSHOT'
 
     compileJava {
         options.encoding = 'UTF-8'

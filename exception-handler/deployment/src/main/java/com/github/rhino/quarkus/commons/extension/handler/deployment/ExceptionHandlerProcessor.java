@@ -16,6 +16,9 @@ class ExceptionHandlerProcessor {
 
     @BuildStep
     AdditionalBeanBuildItem createBlink(){
-        return new AdditionalBeanBuildItem(Blink.class);
+        return  AdditionalBeanBuildItem.builder()
+                .setUnremovable()
+                .addBeanClass(Blink.class)
+                .build();
     }
 }

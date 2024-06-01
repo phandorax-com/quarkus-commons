@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-   // id 'io.quarkus.extension'
 }
 
 allprojects {
@@ -11,9 +10,6 @@ allprojects {
 subprojects {
     apply plugin: 'java-library'
     apply plugin: 'maven-publish'
-
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
 
     repositories {
         mavenCentral()

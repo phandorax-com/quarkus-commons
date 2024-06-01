@@ -3,5 +3,4 @@ dependencies {
     implementation platform("io.quarkus:quarkus-bom:${quarkusPluginVersion}")
     implementation ("io.quarkus:quarkus-core-deployment:${quarkusPluginVersion}")
     implementation ("io.quarkus:quarkus-arc-deployment:${quarkusPluginVersion}")
-    testImplementation 'io.quarkus:quarkus-junit5-internal'
 }

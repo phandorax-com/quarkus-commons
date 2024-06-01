@@ -1,8 +1,7 @@
 plugins {
-    //id 'io.quarkus.extension'
-    //id 'org.kordamp.gradle.jandex' version '0.11.0'
+    id 'io.quarkus.extension'
+    id 'org.kordamp.gradle.jandex' version '0.11.0'
 }
-
 dependencies {
     implementation platform("io.quarkus:quarkus-bom:${quarkusPluginVersion}")
     implementation 'jakarta.ws.rs:jakarta.ws.rs-api'

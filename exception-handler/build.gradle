@@ -1,11 +1,20 @@
 plugins {
     id 'java'
     id 'io.quarkus.extension'
+    id 'maven-publish'
 }
 
 allprojects {
-    group 'com.github.rhino.quarkus'
+    group 'com.github.phandorax-com'
     version '1.0.0-SNAPSHOT'
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
 }
 
 subprojects {

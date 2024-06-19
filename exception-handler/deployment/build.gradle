@@ -1,6 +1,0 @@
-dependencies {
-    implementation project(':runtime')
-    implementation platform("io.quarkus:quarkus-bom:${quarkusPluginVersion}")
-    implementation ("io.quarkus:quarkus-core-deployment:${quarkusPluginVersion}")
-    implementation ("io.quarkus:quarkus-arc-deployment:${quarkusPluginVersion}")
-}

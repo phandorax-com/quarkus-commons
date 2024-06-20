@@ -9,7 +9,9 @@
 
     <modules>
         <module>exception-mapper</module>
+        <module>transaction-id</module>
     </modules>
+
     <properties>
         <quarkus.commons>1.0.1-SNAPSHOT</quarkus.commons>
     </properties>
